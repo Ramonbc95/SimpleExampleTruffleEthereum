@@ -1,0 +1,62 @@
+[2019/09/12 14:23:02.819] - eth_unsubscribe
+[2019/09/12 14:23:02.826] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 25,
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x1"
+   >   ]
+   > }
+[2019/09/12 14:23:02.829] - eth_unsubscribe
+[2019/09/12 14:23:02.832] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 26,
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x2"
+   >   ]
+   > }
+[2019/09/12 14:23:02.837] -  <   {
+ <     "id": 25,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }
+[2019/09/12 14:23:02.840] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x2"
+   >   ],
+   >   "id": 1568294582839
+   > }
+[2019/09/12 14:23:02.844] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x3"
+   >   ],
+   >   "id": 1568294582842
+   > }
+[2019/09/12 14:23:02.845] -  <   {
+ <     "id": 26,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }
+[2019/09/12 14:23:02.849] -  <   {
+ <     "id": 1568294582839,
+ <     "jsonrpc": "2.0",
+ <     "error": {
+ <       "message": "Subscription ID 0x2 not found.",
+ <       "code": -32000,
+ <       "data": {
+ <         "stack": "Error: Subscription ID 0x2 not found.\n    at SubscriptionSubprovider.eth_unsubscribe (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\subproviders\\subscriptions.js:77:8)\n    at SubscriptionSubprovider.handleRequest (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\subproviders\\subscriptions.js:133:12)\n    at next (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\index.js:116:18)\n    at DelayedBlockFilter.handleRequest (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\lib\\subproviders\\delayedblockfilter.js:31:3)\n    at next (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\index.js:116:18)\n    at RequestFunnel.handleRequest (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\lib\\subproviders\\requestfunnel.js:32:12)\n    at next (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\index.js:116:18)\n    at Web3ProviderEngine._handleAsync (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\index.js:103:3)\n    at Timeout._onTimeout (C:\\Program Files\\WindowsApps\\Ganache_2.1.0.0_x64__zh355ej5cj694\\app\\resources\\app.asar\\node_modules\\ganache-core\\node_modules\\web3-provider-engine\\index.js:87:12)\n    at ontimeout (timers.js:469:11)\n    at tryOnTimeout (timers.js:304:5)\n    at Timer.listOnTimeout (timers.js:264:5)",
+ <         "name": "Error"
+ <       }
+ <     }
+ <   }
+[2019/09/12 14:23:02.854] -  <   {
+ <     "id": 1568294582842,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }
+[2019/09/12 14:23:03.394] - Warning: stopMining called when miner was already stopped
